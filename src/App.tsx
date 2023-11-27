@@ -1,7 +1,9 @@
+import MapBox from "./components/MapBox";
+
 const App = (): JSX.Element => {
   return (
     <main>
-      <section className="map-box">Map goes here</section>
+      <MapBox />
     </main>
   );
 };
